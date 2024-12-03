@@ -11,7 +11,7 @@ Distributed Systems,
 System Identification, Numerical simulation, Optimization,
 Rule-based Systems and
 Statistical Inference.
-Research and Development experience in IT industry for last 5 years
+Research and Development experience in IT industry for last 11 years
 in Machine
 Learning, BI and Data Mining areas.
 Supervised and managed IT projects and worked within a
