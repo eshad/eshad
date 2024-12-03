@@ -44,7 +44,7 @@ Skills: React JS/ Vue / Next / JS / HTML / CSS / Asp .Net / Python / Typescript 
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=eshad&show_icons=true&count_private=true)  
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ashutosh00710&custom_title=This%20is%20a%20title&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=eshad0&custom_title=Activity&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ![GitHub metrics](https://metrics.lecoq.io/eshad)  
 
