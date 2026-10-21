@@ -105,7 +105,7 @@ A **fine-tuned coding LLM** I trained for offline patch / fix / code-review work
 <img src="https://streak-stats.demolab.com?user=eshad&hide_border=true&background=0b1f3a&ring=14b8a6&fire=14b8a6&currStreakLabel=14b8a6&sideLabels=e2e8f0&dates=94a3b8&currStreakNum=e2e8f0&sideNums=e2e8f0"/>
 </p>
 <p align="center">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=eshad&bg_color=0b1f3a&color=e2e8f0&line=14b8a6&point=ffffff&area=true&hide_border=true"/>
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=eshad&theme=tokyonight"/>
 </p>
 
 <div align="center">
