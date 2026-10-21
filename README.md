@@ -12,8 +12,8 @@
 </p>
 
 <p>
-<a href="https://eshad.github.io/profile/assets/pdf/mehadi.pdf"><img src="https://img.shields.io/badge/Resume-US%20%2F%20UK%20(PDF)-0b1f3a?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>
-<a href="https://eshad.github.io/profile/assets/pdf/mehadieu.pdf"><img src="https://img.shields.io/badge/Resume-EU%20Format%20(PDF)-14b8a6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>
+<a href="https://eshad.github.io/profile/assets/pdf/mehadieu.pdf"><img src="https://img.shields.io/badge/Resume-US%20%2F%20UK%20(PDF)-0b1f3a?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>
+<a href="https://eshad.github.io/profile/assets/pdf/mehadi.pdf"><img src="https://img.shields.io/badge/Resume-EU%20Format%20(PDF)-14b8a6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>
 </p>
 
 </div>
