@@ -24,7 +24,7 @@ I'm a **Senior Tech Lead and AI Engineer** with **15+ years** of building system
   - **VHMS** (Visitor & Vehicle Handling Management)
   - **AOP** (airport pass & permit platform)
 - 🚆 **Senior Engineer & Lead @ [Guildford Integrated System (GIS)](https://www.guildfordsys.com/)** (Sep 2024 – now): I lead the LRT3, RTS and Smart Car Parking programmes for the Malaysia Government.
-- 🧠 I build production **GenAI and Agentic AI**: LLM integration, RAG, LangChain / LangGraph, MCP, and **LoRA / QLoRA fine-tuning**.
+- 🧠 I build production **GenAI and Agentic AI**: LLM integration, RAG, LangChain / LangGraph and MCP. I also train my own models with **LoRA / QLoRA**: see **NeoHorse-Coder-4B** below.
 - 🎓 I'm a **PhD candidate in Computer Science**. My MSc thesis was an AI-driven medical assistant.
 
 ### 🏢 Domains
@@ -48,13 +48,27 @@ I'm a **Senior Tech Lead and AI Engineer** with **15+ years** of building system
 
 They integrate Milestone XProtect video, Security Expert access control, UVSS scanners and SenseTime AI search, and run with DC/DR failover.
 
+### 🐴 My own model: NeoHorse-Coder-4B
+
+A **fine-tuned coding LLM** I trained for offline patch / fix / code-review work inside my local AI agents (OpenCode + a custom model router).
+
+- **Base:** 4B hybrid linear-attention model (Qwen3.5 family). **35+ training iterations.**
+- **Method:** **QLoRA** 4-bit NF4 (PEFT + bitsandbytes, r=32, α=64) on **5.4k** curated examples from my own commits, CommitPackFT and agent traces.
+- **Infra:** trained on RunPod A40 and AWS L4 GPUs, exported to GGUF (llama.cpp Q4_K_M), served with llama-server. A v34 specialist handles test writing.
+
+| Held-out eval | Base | NeoHorse-Coder |
+|---|---|---|
+| Grounded agent edits | 10% | **91%** |
+| Right-tool use | 34% | **94%** |
+| Decode speed (speculative) | 15 tok/s | **45 tok/s** |
+
 ### 🧠 AI engineering toolbox
 
 | Area | Tools |
 |---|---|
 | **LLMs** | OpenAI · Claude · Gemini · Mistral · Ollama · vLLM · llama.cpp |
 | **Agents & orchestration** | LangChain · LangGraph · LlamaIndex · Semantic Kernel · MCP · AutoGen · n8n |
-| **Fine-tuning** | **LoRA · QLoRA** · PEFT · Unsloth · Hugging Face Transformers / TRL · bitsandbytes |
+| **Fine-tuning** | **LoRA · QLoRA** (4-bit NF4) · PEFT · Hugging Face Transformers · bitsandbytes · MLX · llama.cpp GGUF |
 | **RAG & vectors** | Pinecone · Weaviate · Qdrant · Chroma · FAISS · Milvus · pgvector |
 | **Cloud AI** | AWS Bedrock · Azure OpenAI · Vertex AI |
 | **Evals & LLMOps** | LangSmith · Langfuse · RAGAS · Promptfoo |
