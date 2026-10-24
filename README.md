@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1f3a,50:0f4c75,100:14b8a6&height=200&section=header&text=Mehadi%20Hasan%20(Eshad)&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Senior%20Tech%20Lead%20%C2%B7%20AI%20Engineer%20%C2%B7%20Forward%20Deployed%20Engineer&descAlignY=58&descSize=17" width="100%"/>
 
-<a href="https://github.com/eshad"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=900&color=14B8A6&center=true&vCenter=true&width=760&lines=Building+mission-critical+systems+for+15%2B+years;Airport+security+platforms+%E2%80%94+PSIM+%C2%B7+VHMS+%C2%B7+AOP;Production+GenAI%2C+Agentic+AI%2C+RAG+%26+LoRA+%2F+QLoRA+fine-tuning;Government+transport+%C2%B7+Fintech+%C2%B7+Healthtech" alt="Typing SVG"/></a>
+<a href="https://github.com/eshad"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=900&color=14B8A6&center=true&vCenter=true&width=760&lines=Building+mission-critical+systems+for+15%2B+years;Forward+Deployed+Engineer+%E2%80%94+aviation%2C+rail+%26+fintech;Production+GenAI%2C+Agentic+AI%2C+RAG+%26+LoRA+%2F+QLoRA+fine-tuning;Government+transport+%C2%B7+Fintech+%C2%B7+Healthtech" alt="Typing SVG"/></a>
 
 <p>
 <a href="https://linkedin.com/in/eshad-hasan"><img src="https://img.shields.io/badge/LinkedIn-eshad--hasan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -24,11 +24,8 @@
 
 I'm a **Senior Tech Lead and AI Engineer** with **15+ years** of building systems that can't go down: airport security, government rail signalling, payments and healthcare. I work as a **Forward Deployed Engineer**: I sit with the client, learn how their operation really runs, and turn that into production software.
 
-- 🛫 **Sr. Tech Lead @ Eleware Technology Sdn. Bhd.** (Sep 2026 – now): I lead core modules of KLIA's airport security platforms:
-  - **PSIM** (Physical Security Information Management)
-  - **VHMS** (Visitor & Vehicle Handling Management)
-  - **AOP** (airport pass & permit platform)
-- 🚆 **Senior Engineer & Lead @ [Guildford Integrated System (GIS)](https://www.guildfordsys.com/)** (Sep 2024 – now): I lead the LRT3, RTS and Smart Car Parking programmes for the Malaysia Government.
+- 🛫 **Senior Tech Lead, aviation security**: I lead core modules of a national airport's security platforms: a control-room security console, visitor & vehicle handling, and airport pass & permit management.
+- 🚆 **Lead Engineer, government transport**: I lead national rail and smart-parking programmes, from signalling-side integrations to operations tooling.
 - 🧠 I build production **GenAI and Agentic AI**: LLM integration, RAG, LangChain / LangGraph and MCP. I also train my own models with **LoRA / QLoRA**: see **NeoHorse-Coder-4B** below.
 - 🎓 I'm a **PhD candidate in Computer Science**. My MSc thesis was an AI-driven medical assistant.
 
@@ -45,13 +42,13 @@ I'm a **Senior Tech Lead and AI Engineer** with **15+ years** of building system
 
 ### 🛡️ What I'm building now: airport security platforms
 
-| System | What it does | Stack |
+| Platform | What it does | Stack |
 |---|---|---|
-| **PSIM** | One control-room console for alarms with SOP workflows, maps of cameras and doors, live and recorded video, cardholder tracking and server health | .NET 9 · ABP · Angular 20 · SignalR · SQL Server Always On |
-| **VHMS** | Visitor passes, vehicle inspection with under-vehicle scanners (UVSS), card printing, access-control sync | .NET 10 · ABP · MAUI / Flutter verifier app |
-| **AOP** | Airport pass and permit applications, e-vetting, blacklist screening, AI face-quality checks | .NET 10 · ABP · SenseTime face API |
+| **Security operations console** | One control-room console for alarms with SOP workflows, maps of cameras and doors, live and recorded video, cardholder tracking and server health | .NET 9 · ABP · Angular 20 · SignalR · SQL Server Always On |
+| **Visitor & vehicle handling** | Visitor passes, under-vehicle inspection, card printing, access-control sync | .NET 10 · ABP · MAUI / Flutter verifier app |
+| **Pass & permit management** | Pass and permit applications, e-vetting, watch-list screening, AI face-quality checks | .NET 10 · ABP · computer-vision APIs |
 
-They integrate Milestone XProtect video, Security Expert access control, UVSS scanners and SenseTime AI search, and run with DC/DR failover.
+They integrate enterprise video management, access control, vehicle scanners and AI video search, with high-availability failover.
 
 ### 🐴 My own model: NeoHorse-Coder-4B
 
@@ -92,7 +89,7 @@ A **fine-tuned coding LLM** I trained for offline patch / fix / code-review work
 
 | Project | Description |
 |---|---|
-| [**kafkatui**](https://github.com/eshad/kafkatui) | Terminal UI for Kafka. The LRT3 ops team uses it as their standard diagnostic tool |
+| [**kafkatui**](https://github.com/eshad/kafkatui) | Terminal UI for Kafka. Adopted by a national rail operations team as its standard diagnostic tool |
 | [**rabbitmq-tui**](https://github.com/eshad/rabbitmq-tui) | Terminal UI for RabbitMQ queues, exchanges and messages |
 | [**mydesk**](https://github.com/eshad/mydesk) | Self-hosted, AnyDesk-style remote desktop. Replaced 3 commercial licences |
 | [**macscp**](https://github.com/eshad/macscp) | Native macOS SFTP / SCP client (Swift / AppKit) |
