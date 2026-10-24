@@ -87,6 +87,22 @@ A private coding model that powers my local AI agents for patching, fixing and r
 | [**supercharge-build-challenge**](https://github.com/eshad/supercharge-build-challenge) | SuperCharge SG 2026: Telegram RAG chatbot, smart energy dashboard, AGV brain proposal |
 | [**Redmine plugin suite**](https://github.com/eshad/redmine_turbo_nav) | 6 plugins: [turbo-nav](https://github.com/eshad/redmine_turbo_nav), [dark-mode](https://github.com/eshad/redmine_dark_mode), [forum-pdf](https://github.com/eshad/redmine_forum_pdf_email), [doc-pdf](https://github.com/eshad/redmine_document_pdf_email), [issue-emailer](https://github.com/eshad/issue_emailer_redmine), [custom-mail](https://github.com/eshad/custom_mail_redmine_plugin) |
 
+### 🛠️ Custom tools
+
+Tools I built for my own day-to-day engineering work. 🔒 = private, available on request.
+
+| Tool | What it does |
+|---|---|
+| 🔒 **SequelPlus** | Native macOS SQL IDE in Swift / SwiftUI: Sequel Ace-style UI with TablePlus-style multi-engine connections (MySQL, MariaDB, PostgreSQL, SQLite) |
+| 🔒 **NetPulse** (netmon) | Live terminal dashboard showing which processes, apps, ports and remote IPs are using your bandwidth |
+| 🔒 **Multiplexer** | Rust TUI to configure and run HAProxy, Nginx and SSH jump hosts side by side, with live service status |
+| 🔒 **lza** | lazygit-style terminal UI for Ansible, in Rust |
+| 🔒 **VPN Creator** | Self-hosted WireGuard mesh VPN with an admin dashboard and one-token client enrolment |
+| 🔒 **Remote Desktop (C++)** | Native C++ remote desktop with its own build pipeline |
+| 🔒 **debmaker** | TUI that packages Node.js binaries into Debian `.deb` files |
+| 🔒 **db-exporter** | Interactive CLI to export PostgreSQL and MySQL databases with progress tracking |
+| 🔒 **create-project-tui** · **audio-tui** | Terminal project scaffolder · terminal audio editor built on SoX |
+
 ### 📊 GitHub stats
 
 <p align="center">
