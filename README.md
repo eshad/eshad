@@ -52,7 +52,7 @@ They integrate enterprise video management, access control, vehicle scanners and
 
 ### 🦅 My own model: Falcon 2.6
 
-A private coding model that powers my local AI agents for patching, fixing and reviewing code offline. Built and trained with **Aquila**, my in-house tuning toolchain.
+A private coding model that powers my local AI agents for patching, fixing and reviewing code offline. Built and trained with **Aquila**, my in-house tuning toolchain. Trained on a large, carefully structured dataset inside a secured, access-controlled pipeline: the data never leaves protected infrastructure.
 
 ### 🧠 AI engineering toolbox
 
