@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1f3a,50:0f4c75,100:14b8a6&height=200&section=header&text=Mehadi%20Hasan%20(Eshad)&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Senior%20Tech%20Lead%20%C2%B7%20AI%20Engineer%20%C2%B7%20Forward%20Deployed%20Engineer&descAlignY=58&descSize=17" width="100%"/>
 
-<a href="https://github.com/eshad"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=900&color=14B8A6&center=true&vCenter=true&width=760&lines=Building+mission-critical+systems+for+15%2B+years;Forward+Deployed+Engineer+%E2%80%94+aviation%2C+rail+%26+fintech;Production+GenAI%2C+Agentic+AI%2C+RAG+%26+LoRA+%2F+QLoRA+fine-tuning;Government+transport+%C2%B7+Fintech+%C2%B7+Healthtech" alt="Typing SVG"/></a>
+<a href="https://github.com/eshad"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=900&color=14B8A6&center=true&vCenter=true&width=760&lines=Building+mission-critical+systems+for+15%2B+years;Forward+Deployed+Engineer+%E2%80%94+aviation%2C+rail+%26+fintech;Production+GenAI%2C+Agentic+AI%2C+RAG+%26+custom+model+training;Government+transport+%C2%B7+Fintech+%C2%B7+Healthtech" alt="Typing SVG"/></a>
 
 <p>
 <a href="https://linkedin.com/in/eshad-hasan"><img src="https://img.shields.io/badge/LinkedIn-eshad--hasan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -26,7 +26,7 @@ I'm a **Senior Tech Lead and AI Engineer** with **15+ years** of building system
 
 - 🛫 **Senior Tech Lead, aviation security**: I lead core modules of a national airport's security platforms: a control-room security console, visitor & vehicle handling, and airport pass & permit management.
 - 🚆 **Lead Engineer, government transport**: I lead national rail and smart-parking programmes, from signalling-side integrations to operations tooling.
-- 🧠 I build production **GenAI and Agentic AI**: LLM integration, RAG, LangChain / LangGraph and MCP. I also train my own models with **LoRA / QLoRA**: see **NeoHorse-Coder-4B** below.
+- 🧠 I build production **GenAI and Agentic AI**: LLM integration, RAG, LangChain / LangGraph and MCP. I also build and train my own models: see **Falcon 2.6** below.
 - 🎓 I'm a **PhD candidate in Computer Science**. My MSc thesis was an AI-driven medical assistant.
 
 ### 🏢 Domains
@@ -50,19 +50,9 @@ I'm a **Senior Tech Lead and AI Engineer** with **15+ years** of building system
 
 They integrate enterprise video management, access control, vehicle scanners and AI video search, with high-availability failover.
 
-### 🐴 My own model: NeoHorse-Coder-4B
+### 🦅 My own model: Falcon 2.6
 
-A **fine-tuned coding LLM** I trained for offline patch / fix / code-review work inside my local AI agents (OpenCode + a custom model router).
-
-- **Base:** 4B hybrid linear-attention model (Qwen3.5 family). **35+ training iterations.**
-- **Method:** **QLoRA** 4-bit NF4 (PEFT + bitsandbytes, r=32, α=64) on **5.4k** curated examples from my own commits, CommitPackFT and agent traces.
-- **Infra:** trained on RunPod A40 and AWS L4 GPUs, exported to GGUF (llama.cpp Q4_K_M), served with llama-server. A v34 specialist handles test writing.
-
-| Held-out eval | Base | NeoHorse-Coder |
-|---|---|---|
-| Grounded agent edits | 10% | **91%** |
-| Right-tool use | 34% | **94%** |
-| Decode speed (speculative) | 15 tok/s | **45 tok/s** |
+A private coding model that powers my local AI agents for patching, fixing and reviewing code offline. Built and trained with my own in-house tuning toolchain.
 
 ### 🧠 AI engineering toolbox
 
@@ -70,7 +60,7 @@ A **fine-tuned coding LLM** I trained for offline patch / fix / code-review work
 |---|---|
 | **LLMs** | OpenAI · Claude · Gemini · Mistral · Ollama · vLLM · llama.cpp |
 | **Agents & orchestration** | LangChain · LangGraph · LlamaIndex · Semantic Kernel · MCP · AutoGen · n8n |
-| **Fine-tuning** | **LoRA · QLoRA** (4-bit NF4) · PEFT · Hugging Face Transformers · bitsandbytes · MLX · llama.cpp GGUF |
+| **Model training** | In-house tuning toolchain · Hugging Face Transformers |
 | **RAG & vectors** | Pinecone · Weaviate · Qdrant · Chroma · FAISS · Milvus · pgvector |
 | **Cloud AI** | AWS Bedrock · Azure OpenAI · Vertex AI |
 | **Evals & LLMOps** | LangSmith · Langfuse · RAGAS · Promptfoo |
