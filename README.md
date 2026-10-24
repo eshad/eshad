@@ -52,7 +52,7 @@ They integrate enterprise video management, access control, vehicle scanners and
 
 ### 🦅 My own model: Falcon 2.6
 
-A private coding model that powers my local AI agents for patching, fixing and reviewing code offline. Built and trained with my own in-house tuning toolchain.
+A private coding model that powers my local AI agents for patching, fixing and reviewing code offline. Built and trained with **Aquila**, my in-house tuning toolchain.
 
 ### 🧠 AI engineering toolbox
 
@@ -60,7 +60,7 @@ A private coding model that powers my local AI agents for patching, fixing and r
 |---|---|
 | **LLMs** | OpenAI · Claude · Gemini · Mistral · Ollama · vLLM · llama.cpp |
 | **Agents & orchestration** | LangChain · LangGraph · LlamaIndex · Semantic Kernel · MCP · AutoGen · n8n |
-| **Model training** | In-house tuning toolchain · Hugging Face Transformers |
+| **Model training** | Aquila (in-house tuning toolchain) · Hugging Face Transformers |
 | **RAG & vectors** | Pinecone · Weaviate · Qdrant · Chroma · FAISS · Milvus · pgvector |
 | **Cloud AI** | AWS Bedrock · Azure OpenAI · Vertex AI |
 | **Evals & LLMOps** | LangSmith · Langfuse · RAGAS · Promptfoo |
